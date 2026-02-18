@@ -9,10 +9,17 @@ testing.
 
 2. Outside your Docker container, in the same directory as your
    `compose.yml` file that you've been using for the quarter project,
-   clone the repository.
+   clone the repository specifically like this:
+
+   ```
+   git clone [your fork clone URL] cs362-cold-beverages
+   ```
+
+   If you forget that last argument, rename your cloned directory to
+   `cs362-cold-beverages` before proceeding.
 
 3. Edit `compose.yml`. You need to add the following line to the
-   `volumes` section:
+   `volumes` section if it's not there already:
 
    ```
    - ./cs362-cold-beverages:/home/user/cs362-cold-beverages
