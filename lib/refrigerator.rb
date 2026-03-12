@@ -1,11 +1,9 @@
 class Refrigerator
-
-  attr_reader :chiller, :freezer, :control_panel, :water_dispenser, :water_reservoir
+  attr_reader :chiller, :freezer, :water_dispenser, :water_reservoir
 
   def initialize(chiller, freezer, water_dispenser, water_reservoir)
     @chiller = chiller
     @freezer = freezer
-    @control_panel = control_panel
     @water_dispenser = water_dispenser
     @water_reservoir = water_reservoir
     @power = :off
@@ -55,5 +53,4 @@ class Refrigerator
     Water: Reservoir has #{water_reservoir.current_water_volume} remaining.
     STATUS
   end
-
 end
