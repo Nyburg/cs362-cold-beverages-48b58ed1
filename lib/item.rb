@@ -5,5 +5,4 @@ class Item
     @name = name
     @volume = volume
   end
-
 end
