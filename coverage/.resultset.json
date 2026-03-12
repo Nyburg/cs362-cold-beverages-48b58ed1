@@ -60,6 +60,29 @@
       "/Users/nick/Downloads/cs362_coad/cs362-cold-beverages-48b58ed1/spec/freezer_spec.rb": {
         "lines": [
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
           null,
           1,
           null,
@@ -75,10 +98,10 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          3,
+          3,
+          3,
+          3,
           null,
           null,
           1,
@@ -90,16 +113,28 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           1,
-          0,
+          1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/nick/Downloads/cs362_coad/cs362-cold-beverages-48b58ed1/lib/item.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
           null,
           null
         ]
@@ -110,18 +145,6 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/nick/Downloads/cs362_coad/cs362-cold-beverages-48b58ed1/lib/item.rb": {
-        "lines": [
-          1,
-          1,
-          null,
           1,
           1,
           1,
@@ -376,6 +399,6 @@
         ]
       }
     },
-    "timestamp": 1773300708
+    "timestamp": 1773342065
   }
 }
