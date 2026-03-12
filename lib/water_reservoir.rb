@@ -1,5 +1,4 @@
 class WaterReservoir
-
   attr_reader :capacity
   attr_accessor :current_water_volume
 
@@ -13,11 +12,10 @@ class WaterReservoir
   end
 
   def fill
-    current_water_volume = capacity
+    self.current_water_volume = capacity
   end
 
   def drain(volume)
-    self.current_water_volume -= volume
+    self.current_water_volume = [current_water_volume - volume, 0].max
   end
-
 end

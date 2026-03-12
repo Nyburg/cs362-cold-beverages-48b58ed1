@@ -1,5 +1,4 @@
 class WaterDispenser
-
   attr_reader :reservoir
 
   def initialize(reservoir)
@@ -8,6 +7,6 @@ class WaterDispenser
 
   def dispense(vessel)
     reservoir.drain(vessel.volume)
+    vessel.fill
   end
-
 end
