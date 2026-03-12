@@ -66,4 +66,17 @@ describe 'A refrigerator' do
     expect(chiller.temperature).to eq(45)
     expect(freezer.temperature).to eq(20)
   end
+
+  it 'reports power off after being unplugged' do
+    chiller = Chiller.new
+    freezer = Freezer.new
+    water_reservoir = WaterReservoir.new
+    water_dispenser = WaterDispenser.new(water_reservoir)
+    refrigerator = Refrigerator.new(chiller, freezer, water_dispenser, water_reservoir)
+
+    refrigerator.plug_in
+    refrigerator.unplug
+
+    expect(refrigerator.to_s).to include('Power: off')
+  end
 end
